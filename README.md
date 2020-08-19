@@ -33,7 +33,7 @@ Step 3. Initialize sdk
      
      TxtLog.sdkInitialize(Application context, boolean isDebugModeOnly);
   
-Step 4. Use sdk with two method 
+Step 4. Use sdk with write method 
 
 	
     /**
@@ -45,7 +45,8 @@ Step 4. Use sdk with two method
      TxtLog.write(String tag, String message) 
 
 
+https://jitpack.io/#Shekhar23/TxtLogSdk
 
+[![](https://jitpack.io/v/Shekhar23/TxtLogSdk.svg)](https://jitpack.io/#Shekhar23/TxtLogSdk)
 
-
- 
+www.shekharpande.co.in | www.shekharpande.com
