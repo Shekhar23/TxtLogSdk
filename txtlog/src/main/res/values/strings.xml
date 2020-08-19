@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="init_message">library not init please call TxtLog.init(this)</string>
+</resources>
