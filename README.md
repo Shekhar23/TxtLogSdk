@@ -44,8 +44,9 @@ Step 4. Use sdk with write method
      
      TxtLog.write(String tag, String message) 
 
+<B>Note : Logfile is created At Location : <u>"/Android/YOUR_PACKAGE_NAME/TxtLogFile.txt"</u> </B>
 
-https://jitpack.io/#Shekhar23/TxtLogSdk
+https://jitpack.io/#Shekhar23/TxtLogSdk/
 
 [![](https://jitpack.io/v/Shekhar23/TxtLogSdk.svg)](https://jitpack.io/#Shekhar23/TxtLogSdk)
 
