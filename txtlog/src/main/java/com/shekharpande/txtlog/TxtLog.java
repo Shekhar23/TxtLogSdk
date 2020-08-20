@@ -23,6 +23,11 @@ public class TxtLog {
     private static Application context;
     private static boolean isDebugModeOnly = false;
 
+    /**
+     * This method is used for the initialize sdk
+     * @param context : Application context need for file operation.
+     * @param isDebugModeOnly : Set it true if you wants log writing for debug mode only.
+     */
     public static void sdkInitialize(Application context, boolean isDebugModeOnly) {
         TxtLog.context = context;
         TxtLog.isDebugModeOnly = isDebugModeOnly;
@@ -32,6 +37,11 @@ public class TxtLog {
         TxtLog.isDebugModeOnly = isDebugModeOnly;
     }
 
+    /**
+     * This method is used  for write log with TAG
+     * @param tag : Tag like class name, or method name.
+     * @param message : what you wants to write in file
+     */
     public static void write(String tag, String message) {
 
         if (context == null) {
