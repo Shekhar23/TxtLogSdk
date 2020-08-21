@@ -19,7 +19,7 @@ Add it in your root build.gradle at the end of repositories:
 Step 2. Add the dependency
 
 	dependencies {
-	        implementation 'com.github.Shekhar23:TxtLogSdk:Tag'
+	        implementation 'com.github.Shekhar23:TxtLogSdk:2.4'
 	}
 
 Step 3. Initialize sdk
