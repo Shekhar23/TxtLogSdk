@@ -1,3 +1,2 @@
 include ':txtlog'
 include ':app'
-rootProject.name = "sdkbuilder"
